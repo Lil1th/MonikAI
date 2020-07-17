@@ -1,0 +1,25 @@
+    "manifest_version": 2,
+    "name": "MonikAI",
+    "version": "1.2",
+    "homepage_url": "http://monik.ai",
+  
+    "description": "Provides the currently visited web page to MonikAI.",
+
+    "icons": {
+        "48": "icon48.png",
+        "96": "icon96.png"
+    },
+  
+    "background": {
+        "scripts": [
+            "browser-polyfill.min.js",
+            "monikai.js"
+        ]
+    },
+
+    "permissions": [
+        "*://localhost/*",
+        "tabs"
+      ]
+  
+  }
